@@ -14,8 +14,6 @@ public class Poligono {
       PuntoND a = this.vertici[i];
       PuntoND b = this.vertici[(i + 1) % vertici.length]; // facendo il resto quando arrivo all'ultimo vertice m
       perimetro += b.DistanzaDa(a);
-
-      cda
     }
     return perimetro;
   }
